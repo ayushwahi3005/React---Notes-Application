@@ -1,0 +1,13 @@
+#empty{
+    color: #D3D3D3;
+}
+#addbtn{
+    margin-left: 10px;
+}
+#desc{
+    margin-top: 5px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    border-color: #cfdfff;
+}
