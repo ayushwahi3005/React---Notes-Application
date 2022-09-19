@@ -52,12 +52,12 @@ const onDelete=(ele)=>{
     
     {
     arr.map(element=>{
-      return <Todoitems ele={element.desc} onDel={onDelete} />  
+      return <Todoitems key={element.id} ele={element.desc} onDel={onDelete} />  
       
     })}
   
     <textarea type="text" id="desc" placeholder='Write Here'/>
-    <button id="addbtn" class="btn btn-primary" onClick={onAdd}>Add</button>
+    <button id="addbtn" className="btn btn-primary" onClick={onAdd}>Add</button>
    
  
      
